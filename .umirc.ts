@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'elelive-ui',
+  title: 'lbr',
   favicon: 'http://www.elelive.tv/img/Elelive_logo.png',
   logo: 'http://www.elelive.tv/img/Elelive_logo.png',
   outputPath: 'docs-dist',
