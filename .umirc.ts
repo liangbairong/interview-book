@@ -1,9 +1,9 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'lbr',
-  favicon: 'http://www.elelive.tv/img/Elelive_logo.png',
-  logo: 'http://www.elelive.tv/img/Elelive_logo.png',
+  title: 'web all',
+  // favicon: 'http://www.elelive.tv/img/Elelive_logo.png',
+  // logo: 'http://www.elelive.tv/img/Elelive_logo.png',
   outputPath: 'docs-dist',
   mode: 'doc',
   exportStatic: {},
