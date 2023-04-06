@@ -49,7 +49,7 @@
     (n.o = function (e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (n.p = '/'),
+    (n.p = '/interview-book/'),
     n((n.s = 0));
 })({
   '+2a4': function (e, t, n) {
@@ -29118,7 +29118,7 @@
   },
   q3YX: function (e) {
     e.exports = JSON.parse(
-      '{"menus":{"en-US":{"*":[{"path":"/","title":"\u9996\u9875","meta":{"order":1}},{"title":"\u57fa\u7840","path":"/base","meta":{"order":1,"__fallback":true},"children":[{"path":"/base/o1","title":"\u6570\u636e\u7c7b\u578b","meta":{"order":1}},{"path":"/base/o2","title":"\u7c7b\u578b\u5224\u65ad","meta":{"order":2}},{"path":"/base/o3","title":"\u539f\u578b\u4e0e\u539f\u578b\u94fe","meta":{"order":3}},{"path":"/base/o4","title":"this/call/apply/bind","meta":{"order":4}},{"path":"/base/o5","title":"\u4e8b\u4ef6\u5faa\u73af(Event Loop)","meta":{"order":5}}]},{"title":"React","path":"/ts","meta":{"order":2,"__fallback":true},"children":[{"path":"/ts/t1","title":"\u8bf4\u8bf4React\u4e8b\u4ef6\u548c\u539f\u751f\u4e8b\u4ef6\u7684\u6267\u884c\u987a\u5e8f","meta":{"order":1}}]},{"title":"TypeScript","path":"/react","meta":{"order":3,"__fallback":true},"children":[{"path":"/react/r1","title":"TypeScript \u6cdb\u578b\u4ecb\u7ecd","meta":{"order":1}}]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{},"title":"web all","mode":"doc","repository":{"url":"","branch":"master"},"theme":{},"exportStatic":{}}',
+      '{"menus":{"en-US":{"*":[{"path":"/","title":"\u9996\u9875","meta":{"order":1}},{"title":"\u57fa\u7840","path":"/base","meta":{"order":1,"__fallback":true},"children":[{"path":"/base/o1","title":"\u6570\u636e\u7c7b\u578b","meta":{"order":1}},{"path":"/base/o2","title":"\u7c7b\u578b\u5224\u65ad","meta":{"order":2}},{"path":"/base/o3","title":"\u539f\u578b\u4e0e\u539f\u578b\u94fe","meta":{"order":3}},{"path":"/base/o4","title":"this/call/apply/bind","meta":{"order":4}},{"path":"/base/o5","title":"\u4e8b\u4ef6\u5faa\u73af(Event Loop)","meta":{"order":5}}]},{"title":"React","path":"/ts","meta":{"order":2,"__fallback":true},"children":[{"path":"/ts/t1","title":"\u8bf4\u8bf4React\u4e8b\u4ef6\u548c\u539f\u751f\u4e8b\u4ef6\u7684\u6267\u884c\u987a\u5e8f","meta":{"order":1}}]},{"title":"TypeScript","path":"/react","meta":{"order":3,"__fallback":true},"children":[{"path":"/react/r1","title":"TypeScript \u6cdb\u578b\u4ecb\u7ecd","meta":{"order":1}}]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{},"title":"interview-book","mode":"doc","repository":{"url":"","branch":"master"},"theme":{},"exportStatic":{}}',
     );
   },
   qA1w: function (e, t, n) {
@@ -31802,7 +31802,7 @@
               redirect: '/ts/t1',
             },
           ],
-          title: 'web all',
+          title: 'interview-book',
           component: (e) => e.children,
         },
       ];
@@ -31831,7 +31831,7 @@
                 history: Object(o['a'])(e.hot),
                 isServer: Object({ NODE_ENV: 'production' }).__IS_SERVER,
                 rootElement: 'root',
-                defaultTitle: 'web all',
+                defaultTitle: 'interview-book',
               },
             });
             return z(t);

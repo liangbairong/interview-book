@@ -1,11 +1,12 @@
 import { defineConfig } from 'dumi';
 const repo = 'interview-book';
 export default defineConfig({
-  title: 'web all',
+  title: repo,
   // favicon: 'http://www.elelive.tv/img/Elelive_logo.png',
   // logo: 'http://www.elelive.tv/img/Elelive_logo.png',
   outputPath: 'docs-dist',
   base: `/${repo}/`,
+  publicPath: `/${repo}/`,
   mode: 'doc',
   exportStatic: {},
   styles: [
