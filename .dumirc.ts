@@ -7,6 +7,6 @@ export default defineConfig({
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
   themeConfig: {
-    name: 'text',
+    name: name,
   },
 });
